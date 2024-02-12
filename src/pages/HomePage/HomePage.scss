@@ -1,0 +1,28 @@
+.ant {
+  &-form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #f2f2f2;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+    &-item-required {
+      font-weight: bold;
+    }
+  }
+  &-divider {
+    margin-top: 0;
+  }
+}
+
+.button {
+  &__link-registration {
+    width: 100%;
+    background: #1677ff;
+    span {
+      color: white;
+    }
+  }
+}
